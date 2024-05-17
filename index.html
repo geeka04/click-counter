@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital click counter</title>
+    <link rel="stylesheet" href="\index.css">
+</head>
+<body>
+    <h1><b> Click Counter </b></h1>
+    <h3> Use this click counter to count whatever you want</h3>
+    <br>
+        <div>
+            <h1 id="counter-el"> 0 </h1>
+        </div>
+        <br>
+        <button id="inc-button" onclick="increment()">INCREMENT</button>
+        <button id="dec-button" onclick="decrement()">DECREMENT</button>
+        <br> 
+        <br>
+        <button id="save-button" onclick="save()">SAVE COUNT</button>
+        <button id ="re-button" onClick="history.go(0);">RESTART</button>
+        <p id = "saved-counts"> Saved counts: </p>
+<script src="\index.js"></script>
+</body>
+</html>
